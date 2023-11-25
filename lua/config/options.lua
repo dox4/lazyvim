@@ -21,3 +21,5 @@ opt.listchars:append({ tab = "│ " })
 opt.listchars:append({ leadmultispace = "┆   " })
 opt.listchars:append({ extends = "▸" })
 opt.listchars:append({ precedes = "◂" })
+
+opt.conceallevel = 0
