@@ -2,7 +2,7 @@ local function random_colorscheme()
     local themes = {
         "dracula",
         "tokyonight",
-        "catppuccin-mocha",
+        -- "catppuccin-mocha",
         "monokai-pro",
         "onedark",
     }
@@ -30,12 +30,12 @@ return {
             end)(),
         },
     },
-    {
-        "catppuccin/nvim",
-        opts = {
-            transparent_background = true,
-        },
-    },
+    -- {
+    --     "catppuccin/nvim",
+    --     opts = {
+    --         transparent_background = true,
+    --     },
+    -- },
     {
         "loctvl842/monokai-pro.nvim",
         opts = {
